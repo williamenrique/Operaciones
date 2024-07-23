@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="<?= CSS ?>adminlte.min.css">
 	</head>
 
-	<body class="hold-transition sidebar-mini layout-fixed">
+	<body class="hold-transition sidebar-mini layout-fixed" onload="mueveReloj()">
 		<!-- Site wrapper -->
 		<div class="wrapper">
 			<!-- Navbar -->
@@ -134,6 +134,13 @@
 								<a href="<?= base_url()?>mantenimiento" class="nav-link ">
 									<i class="nav-icon far fa-list-alt"></i>
 									<p>DATA MANTENIMIENTO</p>
+								</a>
+							</li>
+
+							<li class="nav-item link-statcion statcion">
+								<a href="<?= base_url()?>estacion" class="nav-link active-estacion">
+									<i class="nav-icon far fa-list-alt"></i>
+									<p>ESTACION</p>
 								</a>
 							</li>
 

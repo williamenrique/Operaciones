@@ -19,6 +19,7 @@ if (document.querySelector("." + page_menu_open)) {
 <script src="<?= PLUGINS ?>js/jquery.min.js"></script>
 <script src="<?= PLUGINS ?>js/bootstrap.bundle.min.js"></script>
 <script src="<?= PLUGINS ?>js/jquery.overlayScrollbars.min.js"></script>
+<script src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
 <script src="<?= PLUGINS ?>js/bootstrap-select.min.js"></script>
 <script src="<?= PLUGINS ?>js/jquery.dataTables.min.js"></script>
 <script src="<?= PLUGINS ?>js/dataTables.bootstrap4.min.js"></script>

@@ -48,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			"responsive": true, "lengthChange": true, "autoWidth": false,
 			"buttons": ["copy", "csv", "excel", "pdf", "print"]
 		}).buttons().container().appendTo('#tableFlota_wrapper .col-sm-6:eq(0)')
-
 	}
 	/**********cargar unidades en mantenimiento en la tabla**********/
 	if(document.querySelector('#tableMantenimiento')){
