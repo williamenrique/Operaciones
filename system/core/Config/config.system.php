@@ -1,5 +1,5 @@
 <?php
-const BASE_URL = "http://192.168.1.200/tesoreria/";
+const BASE_URL = "http://192.168.1.200/operaciones/";
 const HEAD = "src/include/head.php";
 const FOOTER = "src/include/footer.php";
 // const BACK_URL = $_SERVER['REQUEST_URI'];
@@ -30,7 +30,7 @@ const LOAD = BASE_URL."system/core/Libraries/Load.php";
 const DB_HOST = "localhost";
 const DB_USER = "root";
 const DB_PASS = "";
-const DB_NAME = "data_inicial";
+const DB_NAME = "data_busyaracuy";
 const DB_CHARSET = "charset=utf8";
 
 define("BACKUP_DIR", $ruta.'/BackUp/'); // Comment this line to use same script's directory ('.')
@@ -54,5 +54,5 @@ const SPM = '.';
 const SMONEY = '$';
 //constantes de encriptacion
 define('METHOD','AES-256-CBC');
-define('SECRET_KEY','$d@t@1n1c1@l');
+define('SECRET_KEY','$busYaracuy');
 define('SECRET_IV','101712');

@@ -30,12 +30,11 @@
 					<li class="nav-item">
 						<a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
 					</li>
-					<!-- <li class="nav-item d-none d-sm-inline-block">
-						<a href="../../index3.html" class="nav-link">Home</a>
-					</li>
 					<li class="nav-item d-none d-sm-inline-block">
-						<a href="#" class="nav-link">Contact</a>
-					</li> -->
+						<a class="nav-link">
+							<?= $data['page_tag']?>
+						</a>
+					</li>
 				</ul>
 				<!-- Right navbar links -->
 				<ul class="navbar-nav ml-auto">
@@ -108,22 +107,78 @@
 									<p>INCIO</p>
 								</a>
 							</li>
-							<li class="nav-item menu-open-user">
-								<a href="#" class="nav-link active-user">
-									<i class="nav-icon fas fa-users"></i>
-									<p> PERSONAL
-										<i class="right fas fa-angle-left"></i>
-									</p>
+
+							<li class="nav-item flota">
+								<a href="<?= base_url()?>flota" class="nav-link flota-link">
+									<i class="nav-icon fas fa-bus"></i>
+									<p>FLOTA</p>
 								</a>
-								<ul class="nav nav-treeview">
-									<li class="nav-item link-user">
-										<a href="<?= base_url()?>usuarios" class="nav-link usuarios">
+							</li>
+
+							<li class="nav-item mantenimiento">
+								<a href="<?= base_url()?>flota/ingresar_mant" class="nav-link mantenimiento-link">
+									<i class="nav-icon fas fa-tachometer-alt"></i>
+									<p>MANTENIMIENTO</p>
+								</a>
+							</li>
+
+							<li class="nav-item">
+								<a href="<?= base_url()?>usuarios" class="nav-link active-user">
+									<i class="nav-icon fas fa-users"></i>
+									<p>USUARIOS</p>
+								</a>
+							</li>
+
+
+							<li class="nav-item link-data data">
+								<a href="<?= base_url()?>mantenimiento" class="nav-link ">
+									<i class="nav-icon far fa-list-alt"></i>
+									<p>DATA MANTENIMIENTO</p>
+								</a>
+							</li>
+
+
+							<li class="nav-item personal-menu ">
+								<a href="#" class="nav-link personal">
+									<i class="nav-icon fas fa-list"></i>
+									<p>DATA PERSONAL<i class="right fas fa-angle-left"></i></p>
+								</a>
+								<ul class="nav nav-treeview ">
+									<li class="nav-item link-personal personal">
+										<a href="<?= base_url()?>personal/personal" class="nav-link ">
 											<i class="far fa-circle nav-icon"></i>
-											<p>USUARIOS</p>
+											<p>PERSONAL</p>
+										</a>
+									</li>
+									<li class="nav-item link-unoxdiez">
+										<a href="<?= base_url()?>personal/unoxdiez" class="nav-link ">
+											<i class="far fa-circle nav-icon"></i>
+											<p>1X10</p>
+										</a>
+									</li>
+									<li class="nav-item link-faltante">
+										<a href="<?= base_url()?>personal/faltante" class="nav-link ">
+											<i class="far fa-circle nav-icon"></i>
+											<p>FALTANTES</p>
+										</a>
+									</li>
+									<li class="nav-item link-conteo">
+										<a href="<?= base_url()?>personal/conteo" class="nav-link ">
+											<i class="far fa-circle nav-icon"></i>
+											<span class="right badge badge-danger">New</span>
+											<p>CONTEO</p>
 										</a>
 									</li>
 								</ul>
 							</li>
+
+							<li class="nav-item link-grafica grafica">
+								<a href="<?= base_url()?>grafica" class="nav-link ">
+									<i class="nav-icon fas fa-chart-bar"></i>
+									<p>ESTADISTICA</p>
+								</a>
+							</li>
+
 						</ul>
 					</nav>
 					<!-- /.sidebar-menu -->

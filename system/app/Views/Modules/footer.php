@@ -24,7 +24,16 @@ if (document.querySelector("." + page_menu_open)) {
 <script src="<?= PLUGINS ?>js/dataTables.bootstrap4.min.js"></script>
 <script src="<?= PLUGINS ?>js/dataTables.responsive.min.js"></script>
 <script src="<?= PLUGINS ?>js/responsive.bootstrap4.min.js"></script>
+<script src="<?= PLUGINS ?>js/dataTables.buttons.min.js"></script>
+<script src="<?= PLUGINS ?>js/buttons.bootstrap4.min.js"></script>
+<script src="<?= PLUGINS ?>js/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.10/pdfmake.min.js"></script>
+<script src="<?= PLUGINS ?>js/vfs_fonts.js"></script>
+<script src="<?= PLUGINS ?>js/buttons.html5.min.js"></script>
+<script src="<?= PLUGINS ?>js/buttons.print.min.js"></script>
+<script src="<?= PLUGINS ?>js/buttons.colVis.min.js"></script>
 <script src="<?= PLUGINS ?>js/sweetalert2@10.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="<?= PLUGINS ?>js/adminlte.js"></script>
 <script src="<?= JS ?>function.main.js"></script>
 <script src="<?= JS.$data['page_functions']?>"></script>
