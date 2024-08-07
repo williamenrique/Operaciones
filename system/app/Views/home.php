@@ -43,6 +43,7 @@
 				</div>
 			</div>
 		</div>
+		<?= cargar_menu('will')?>
 	</section>
 	<!-- /.content -->
 </div>
